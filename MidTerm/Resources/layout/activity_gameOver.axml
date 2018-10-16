@@ -44,7 +44,7 @@
 		android:textStyle="bold"
 		android:textSize="20sp"
 		android:layout_gravity="center_horizontal"
-		android:layout_marginTop="25dp" />
+		android:layout_marginTop="45dp" />
   
 
 </LinearLayout>
