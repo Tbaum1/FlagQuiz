@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:orientation="vertical"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent">
-  <TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:minWidth="25px"
-    android:minHeight="25px"
-    android:id="@+id/textView1"
-    android:layout_marginTop="75dp"
-    android:autoText="false"
-    android:textAlignment="center"
-    android:textSize="85sp"
-    android:textStyle="bold"
-    android:textColor="#ffe64a19"
-    android:layout_marginBottom="100dp"
-    android:freezesText="true"
-    android:text="Game Over" />
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1"
+		android:layout_marginTop="75dp"
+		android:autoText="false"
+		android:textAlignment="center"
+		android:textSize="85sp"
+		android:textStyle="bold"
+		android:textColor="#ffe64a19"
+		android:layout_marginBottom="100dp"
+		android:freezesText="true"
+		android:text="Game Over" />
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
@@ -27,6 +27,24 @@
 		android:textAlignment="center"
 		android:textAllCaps="false"
 		android:textStyle="bold" />
+	<Button
+		android:text="Play Again"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnPlayAgain"
+		android:layout_marginTop="70dp"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:layout_gravity="center_horizontal" />
+	<Button
+		android:text="Exit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnExit"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="25dp" />
   
 
 </LinearLayout>
