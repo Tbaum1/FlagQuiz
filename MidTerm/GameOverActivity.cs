@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,6 +28,17 @@ namespace MidTerm
 
             string temp = prefs.GetInt("score", 0).ToString();
             score.Text = temp  + " Out of 10";
+            var btnPlayAgain = FindViewById<Button>(Resource.Id.btnPlayAgain);
+            var btnExit = FindViewById<Button>(Resource.Id.btnExit);
+            Intent questionActivity = new Intent(this, typeof(QuestionActivity));
+            btnPlayAgain.Click += delegate
+            {
+                StartActivity(questionActivity);
+            };
+            btnExit.Click += delegate
+            {
+                Process.KillProcess(Process.MyPid());
+            };
         }
     }
 }
