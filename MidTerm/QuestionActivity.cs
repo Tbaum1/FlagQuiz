@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -71,7 +71,6 @@ namespace MidTerm
                     }
                     else
                     {
-                        Toast.MakeText(this, "You finished the quiz", ToastLength.Short).Show();
                         mainPlayer.Stop();
                         score++;
                         saveScore();
@@ -90,8 +89,7 @@ namespace MidTerm
                         NewQuestion(turn);
                     }
                     else
-                    {
-                        Toast.MakeText(this, "You finished the quiz", ToastLength.Short).Show();
+                    {                        
                         mainPlayer.Stop();
                         StartActivity(gameOver);
                     }
@@ -114,7 +112,6 @@ namespace MidTerm
                     }
                     else
                     {
-                        Toast.MakeText(this, "You finished the quiz", ToastLength.Short).Show();
                         mainPlayer.Stop();
                         score++;
                         saveScore();
@@ -134,7 +131,6 @@ namespace MidTerm
                     }
                     else
                     {
-                        Toast.MakeText(this, "You finished the quiz", ToastLength.Short).Show();
                         mainPlayer.Stop();
                         StartActivity(gameOver);
                     }
@@ -157,7 +153,6 @@ namespace MidTerm
                     }
                     else
                     {
-                        Toast.MakeText(this, "You finished the quiz", ToastLength.Short).Show();
                         mainPlayer.Stop();
                         score++;
                         saveScore();
@@ -177,7 +172,6 @@ namespace MidTerm
                     }
                     else
                     {
-                        Toast.MakeText(this, "You finished the quiz", ToastLength.Short).Show();
                         mainPlayer.Stop();
                         StartActivity(gameOver);
                     }
@@ -200,7 +194,6 @@ namespace MidTerm
                     }
                     else
                     {
-                        Toast.MakeText(this, "You finished the quiz", ToastLength.Short).Show();
                         mainPlayer.Stop();
                         score++;
                         saveScore();
@@ -220,7 +213,6 @@ namespace MidTerm
                     }
                     else
                     {
-                        Toast.MakeText(this, "You finished the quiz", ToastLength.Short).Show();
                         mainPlayer.Stop();
                         StartActivity(gameOver);
                     }
