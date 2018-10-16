@@ -37,7 +37,7 @@ namespace MidTerm
             };
             btnExit.Click += delegate
             {
-                Process.KillProcess(Process.MyPid());
+                System.Environment.Exit(0);
             };
         }
     }
